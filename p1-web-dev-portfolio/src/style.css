@@ -1,0 +1,391 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  margin-top: auto;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background-color: #001a2b;
+  border-bottom: 2px solid #e2c174;
+  color: white;
+  position: fixed;
+  top: 0;
+}
+
+header>img {
+  margin-left: 10px;
+  width: 100px;
+  height: 50px;
+  padding: 5px;
+}
+
+.container nav ul {
+  display: flex;
+  list-style: none;
+  margin-left: 30px;
+  text-transform: uppercase;
+}
+
+li a {
+  margin-left: 3px;
+  margin-right: 3px;
+  font-size: 10px;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+li a:hover {
+  color: #e2c174;
+}
+
+.inside-container {
+  padding-top: 30px;
+  background-color: #ffffff;
+  color: #001a2b;
+  margin-top: 30px;
+}
+
+.about-border {
+  border-right: 5px solid #000000;
+  border-top: 5px solid #000000;
+  border-left: 5px solid #000000;
+  background-color: #e2c174;
+  height: auto;
+  display: grid;
+  margin: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+  grid-auto-rows: auto;
+  grid-template-columns: 1fr;
+  gap: 30px;
+}
+
+.aboutme {
+  margin-top: 5px;
+}
+
+.aboutme>img {
+  margin-top: 5px;
+  padding: auto;
+  width: 100%;
+}
+
+.aboutme>img>aside {
+  margin-right: 5px;
+  align-items: center;
+}
+
+h3 {
+  text-align: center;
+  font-size: 1.5rem;
+  background-color: #001a2b;
+  color: #ffffff;
+  font-family: 'Merriweather', serif;
+}
+
+aside>p {
+  font-size: 1rem;
+  padding-bottom: 10px;
+  padding-top: 5px;
+  text-align: center;
+}
+.contact-section>p {
+  font-size: 1rem;
+  padding-bottom: 10px;
+  padding-top: 5px;
+  text-align: center;
+}
+.skills {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.skills-icon i {
+  font-size: 3rem;
+}
+
+.skills-icon {
+  display: flex;
+  flex-direction: column;
+  font-size: .7rem;
+  align-items: center;
+  transition: transform .2s;
+}
+
+.skills .skills-icon:hover {
+  transform: scale(1.5);
+}
+
+article {
+  display: flex;
+}
+
+.projects {
+  font-size: 1rem;
+}
+
+.project-container {
+  display: flex;
+  align-self: center;
+  justify-content: space-between;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+
+.projects .activity {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.projects img {
+  width: 12rem;
+  height: 10rem;
+  margin: auto;
+}
+.contact {
+  width: 100%;
+  display: flex;
+  margin: auto;
+}
+.contact-section>p{
+  font-size: .7rem;
+    padding-bottom: 10px;
+    padding-top: 5px;
+    text-transform: uppercase;
+    text-align: center;
+    border-top: 2px solid #000000;
+    border-top: 2px solid #000000;
+}
+
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  border-left: 1px solid #ffffff;
+  padding: 1rem;
+  font-size: .6rem;
+}
+
+section h2 {
+  margin-top: 25px;
+  margin-right: 10px;
+  text-transform: uppercase;
+  font-family: 'Merriweather', serif;
+  color: #ffffff ;
+}
+
+.contact-container>.name {
+  font-family: 'Merriweather', serif;
+  font-size: .8rem;
+  margin-bottom: 7px;
+}
+
+.button a {
+  background: #001a2b;
+  color: #ffffff;
+  border: 1px solid white;
+  width: 100px;
+  padding: 5px;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+}
+
+.button>.download {
+  margin-top: 15px;
+  margin-left: 28px;
+}
+
+.button .message {
+  margin-top: 15px;
+  margin-left: 35px;
+}
+
+.socmed {
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+}
+.socmed>p{
+  font-size: .7rem;
+}
+#socmed-icon{
+  display: flex;
+  list-style: none;
+}
+
+#socmed-icon li i {
+  font-size: 2rem;
+}
+
+footer {
+  padding-left: 60px;
+  font-size: 10px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background-color: #001a2b;
+  border-top: 2px solid #e2c174;
+  color: white;
+}
+
+/* MEDIA QUERIES */
+@media screen and (min-width: 768px) {
+
+  header {
+    justify-content: space-between;
+    height: 90px;
+    position: fixed;
+    top: 0;
+  }
+  header img {
+    margin-left: 200px;
+    height: 100%;
+  }
+  .inside-container {
+    margin-top: 80px;
+  }
+
+  .about-border {
+    width: 100%;
+    height: 2200px;
+    border: 0px;
+    margin-top: -10px;
+    gap: 40px;
+  }
+
+  .aboutme {
+    grid-auto-rows: auto;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    display: grid;
+  }
+
+  .aboutme img:nth-of-type(1) {
+    height: 100%;
+    order: 2;
+  }
+
+  .aside:nth-of-type(2) {
+    order: 1;
+  }
+
+  h3 {
+    margin-top: 40px;
+    margin-bottom: 15px;
+    margin-left: 30px;
+    margin-right: auto;
+    color: #ffffff;
+    text-align: center;
+  }
+
+
+
+  section h2 {
+    font-size: 2.5rem;
+    padding-left: 2px;
+  }
+
+  nav ul {
+    margin-right: 80px;
+  }
+
+  nav>ul>li {
+    margin-right: 20px;
+  }
+
+  nav>ul>li>a {
+    font-size: 20px;
+  }
+
+  .icon {
+    font-size: 2rem;
+  }
+
+  .project-container {
+    flex-wrap: nowrap;
+  }
+
+  .contact {
+    margin: 0;
+    font-size: 1rem;
+    display: grid;
+    grid-template-rows: 1fr 4fr;
+  }
+
+  .contact-container {
+    flex-direction: row;
+    padding: 1rem;
+    font-size: 1rem;
+    border-left:0;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .button{
+    margin-top: 60px;
+    margin-left: 100px;
+  }
+  .button>* {
+    display: inline-block;
+    margin-top: 20px;
+  }
+  #contact-nav{
+    border-top: 3px solid white;
+  }
+  .contact-section{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+  }
+  .contact-section>p {
+    font-size: 1rem;
+    margin-left: 330px;
+    padding-bottom: 10px;
+    padding-top: 5px;
+    text-align: center;
+    border-top: 0;
+}
+  .contact-container>.name{
+    font-family: 'Merriweather', serif;
+    font-size: 2rem;
+    margin-bottom: 7px;
+
+  }
+  .contact-info {
+    margin-top: 50px;
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+.projects .activity {
+  margin-right: 3rem;
+}
+
+#socmed-icon>li {
+  margin-right: 30px;
+  margin-left: 5px;
+}
+
+footer {
+  padding-left: 550px;
+  font-size: 10px;
+  height: 50px;
+}
+.skills{
+  justify-content: space-evenly;
+}
+.skills-icon {
+  font-size: 1.5rem;
+}
+}
