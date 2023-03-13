@@ -99,12 +99,14 @@ aside>p {
   padding-top: 5px;
   text-align: center;
 }
+
 .contact-section>p {
   font-size: 1rem;
   padding-bottom: 10px;
   padding-top: 5px;
   text-align: center;
 }
+
 .skills {
   display: flex;
   justify-content: space-between;
@@ -155,19 +157,21 @@ article {
   height: 10rem;
   margin: auto;
 }
+
 .contact {
   width: 100%;
   display: flex;
   margin: auto;
 }
-.contact-section>p{
+
+.contact-section>p {
   font-size: .7rem;
-    padding-bottom: 10px;
-    padding-top: 5px;
-    text-transform: uppercase;
-    text-align: center;
-    border-top: 2px solid #000000;
-    border-top: 2px solid #000000;
+  padding-bottom: 10px;
+  padding-top: 5px;
+  text-transform: uppercase;
+  text-align: center;
+  border-top: 2px solid #000000;
+  border-top: 2px solid #000000;
 }
 
 .contact-container {
@@ -183,7 +187,7 @@ section h2 {
   margin-right: 10px;
   text-transform: uppercase;
   font-family: 'Merriweather', serif;
-  color: #ffffff ;
+  color: #ffffff;
 }
 
 .contact-container>.name {
@@ -217,10 +221,12 @@ section h2 {
   flex-direction: column;
   margin-top: 15px;
 }
-.socmed>p{
+
+.socmed>p {
   font-size: .7rem;
 }
-#socmed-icon{
+
+#socmed-icon {
   display: flex;
   list-style: none;
 }
@@ -249,10 +255,12 @@ footer {
     position: fixed;
     top: 0;
   }
+
   header img {
     margin-left: 200px;
     height: 100%;
   }
+
   .inside-container {
     margin-top: 80px;
   }
@@ -328,25 +336,30 @@ footer {
     flex-direction: row;
     padding: 1rem;
     font-size: 1rem;
-    border-left:0;
+    border-left: 0;
     display: grid;
     grid-template-columns: 1fr;
   }
-  .button{
+
+  .button {
     margin-top: 60px;
     margin-left: 100px;
   }
+
   .button>* {
     display: inline-block;
     margin-top: 20px;
   }
-  #contact-nav{
+
+  #contact-nav {
     border-top: 3px solid white;
   }
-  .contact-section{
+
+  .contact-section {
     display: grid;
     grid-template-columns: 1fr 2fr;
   }
+
   .contact-section>p {
     font-size: 1rem;
     margin-left: 330px;
@@ -354,13 +367,15 @@ footer {
     padding-top: 5px;
     text-align: center;
     border-top: 0;
-}
-  .contact-container>.name{
+  }
+
+  .contact-container>.name {
     font-family: 'Merriweather', serif;
     font-size: 2rem;
     margin-bottom: 7px;
 
   }
+
   .contact-info {
     margin-top: 50px;
     position: absolute;
@@ -368,24 +383,31 @@ footer {
     flex-wrap: wrap;
     gap: 20px;
   }
-.projects .activity {
-  margin-right: 3rem;
-}
 
-#socmed-icon>li {
-  margin-right: 30px;
-  margin-left: 5px;
-}
+  .projects .activity {
+    margin-right: 3rem;
+  }
 
-footer {
-  padding-left: 550px;
-  font-size: 10px;
-  height: 50px;
-}
-.skills{
-  justify-content: space-evenly;
-}
-.skills-icon {
-  font-size: 1.5rem;
-}
+  .activity>p {
+    margin-top: 1rem;
+  }
+
+  #socmed-icon>li {
+    margin-right: 30px;
+    margin-left: 5px;
+  }
+
+  footer {
+    padding-left: 550px;
+    font-size: 10px;
+    height: 50px;
+  }
+
+  .skills {
+    justify-content: space-evenly;
+  }
+
+  .skills-icon {
+    font-size: 1.5rem;
+  }
 }
